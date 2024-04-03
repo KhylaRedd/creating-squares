@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+  min-height: fit-content;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  border: black solid 2px;
+}
+.container__sq1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border: rgb(155, 9, 87) solid 15px;
+  background-color: transparent;
+}
+.container__sq2 {
+  background-color: transparent;
+  position: absolute;
+  height: 94%;
+  width: 96%;
+  top: 3.5%;
+  bottom: 3%;
+  margin-left: 2%;
+  border: rgb(5, 94, 60) solid 14px;
+}
+.container__sq3 {
+  position: absolute;
+  height: 87%;
+  width: 92%;
+  top: 7%;
+  bottom: 7%;
+  margin-left: 4%;
+  background-color: transparent;
+  border: rgb(158, 192, 8) solid 17px;
+}
+.container__sq4 {
+  position: absolute;
+  height: 81%;
+  width: 88%;
+  top: 10%;
+  bottom: 7%;
+  margin-left: 6%;
+  background-color: transparent;
+  border: rgb(177, 8, 183) solid 18px;
+}
+.container__sq5 {
+  position: absolute;
+  height: 75%;
+  width: 84%;
+  top: 13%;
+  bottom: 7%;
+  margin-left: 8%;
+  background-color: transparent;
+  border: rgb(81, 2, 113) solid 18px;
+}
+.container__sq6 {
+  position: absolute;
+  height: 68%;
+  width: 80%;
+  top: 17%;
+  bottom: 7%;
+  margin-left: 10%;
+  background-color: transparent;
+  border: rgb(123, 166, 245) solid 18px;
+}
+.container button {
+  position: absolute;
+  top: 49%;
+  left: 47%;
+  background-color: rgb(3, 5, 41);
+  height: 5%;
+  width: 9%;
+  color: whitesmoke;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=styles.css.map */
