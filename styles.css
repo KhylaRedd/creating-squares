@@ -16,6 +16,7 @@ html, body {
   border: black solid 2px;
 }
 .container__sq1 {
+  display: none;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -23,6 +24,7 @@ html, body {
   background-color: transparent;
 }
 .container__sq2 {
+  display: none;
   background-color: transparent;
   position: absolute;
   height: 94%;
@@ -33,6 +35,7 @@ html, body {
   border: rgb(5, 94, 60) solid 14px;
 }
 .container__sq3 {
+  display: none;
   position: absolute;
   height: 87%;
   width: 92%;
@@ -43,6 +46,7 @@ html, body {
   border: rgb(158, 192, 8) solid 17px;
 }
 .container__sq4 {
+  display: none;
   position: absolute;
   height: 81%;
   width: 88%;
@@ -53,6 +57,7 @@ html, body {
   border: rgb(177, 8, 183) solid 18px;
 }
 .container__sq5 {
+  display: none;
   position: absolute;
   height: 75%;
   width: 84%;
@@ -63,6 +68,7 @@ html, body {
   border: rgb(81, 2, 113) solid 18px;
 }
 .container__sq6 {
+  display: none;
   position: absolute;
   height: 68%;
   width: 80%;
@@ -71,15 +77,64 @@ html, body {
   margin-left: 10%;
   border: rgb(123, 166, 245) solid 18px;
 }
-.container button {
+.container__sq7 {
+  display: none;
   position: absolute;
-  top: 49%;
-  left: 47%;
+  height: 63%;
+  width: 76%;
+  top: 19%;
+  bottom: 7%;
+  margin-left: 12%;
+  border: rgb(177, 8, 183) solid 18px;
+}
+.container__sq8 {
+  display: none;
+  position: absolute;
+  height: 57%;
+  width: 72%;
+  top: 22%;
+  bottom: 9%;
+  margin-left: 14%;
+  border: rgb(81, 2, 113) solid 18px;
+}
+.container__sq9 {
+  display: none;
+  position: absolute;
+  height: 50%;
+  width: 68%;
+  top: 25%;
+  margin-left: 16%;
+  border: rgb(3, 173, 125) solid 18px;
+}
+.container__sq10 {
+  display: none;
+  position: absolute;
+  height: 44%;
+  width: 64%;
+  top: 27%;
+  margin-left: 18%;
+  border: rgb(208, 34, 179) solid 18px;
+}
+.container__sq11 {
+  display: none;
+  position: absolute;
+  height: 36%;
+  width: 60%;
+  top: 31%;
+  margin-left: 20%;
+  border: rgb(2, 80, 58) solid 18px;
+}
+.container button {
+  z-index: 1;
+  position: absolute;
+  top: 48%;
+  left: 46%;
   background-color: rgb(3, 5, 41);
-  height: 5%;
+  height: 7%;
   width: 9%;
   color: whitesmoke;
   border-radius: 5px;
+  letter-spacing: 1px;
 }
 
 /*# sourceMappingURL=styles.css.map */
